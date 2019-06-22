@@ -1,0 +1,9 @@
+（二）解决方法：
+
+1.关闭Navicat程序。
+
+2.键盘按键win+R，输入regedit调出Windows系统注册表。
+
+3.删除HKEY_CURRENT_USER\SOFTWARE\PremiumSoft\Data：
+
+4.展开HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID，然后展开每一个子文件夹查看，如果里面只包含一个名为Info的文件夹，就删掉它：
